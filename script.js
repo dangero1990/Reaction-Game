@@ -17,9 +17,9 @@ let start = new Date().getTime();
 
 		function makeShapeAppear () {
 
-			let top = Math.random() * 400;
+			let top = Math.random() * 300;
 
-			let left = Math.random() * 400;
+			let left = Math.random() * 300;
 
 			let width = Math.random() * 200 + 100;
 

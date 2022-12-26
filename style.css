@@ -3,16 +3,41 @@
 			width: 200px;
 			height: 200px;
 			background-color: red;
-			display: none;
+			display: flex;
 			position: relative;
 		}
 
 		body {
 
 			font-family: sans-serif;
-			background-color: lightblue;
+			min-width: 100vw;
+			flex-wrap: wrap;
+			position: fixed;
 		}
 
 		.bold {
 
 			font-weight: bold;
+		}
+
+		html {
+
+			min-width: 100%;
+			min-height: 100%;
+
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+		p {
+			text-align: center;
+		}
+
+		.container {
+			width: 100%;
+			height: auto;
+			margin: 0 auto;
+			display: contents;
+		}
